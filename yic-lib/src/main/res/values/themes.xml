@@ -1,0 +1,92 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.App" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:launchMode">singleTask</item>
+        <item name="android:screenOrientation">portrait</item>
+    </style>
+
+    <style name="Translucent_HALF" parent="android:style/Theme.Dialog">
+        <item name="background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="SplashThemeFast" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_splash</item>
+        <item name="android:windowAnimationStyle">@style/Animation</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:screenOrientation">portrait</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="Bottom_Dialog" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit_anim</item>
+    </style>
+
+    <style name="Translucent_NoTitle_Dialog" parent="android:style/Theme.Dialog">
+        <item name="background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="Dialog_Activity" parent="Theme.AppCompat.Dialog">
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="StyleTextS16B66">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black66</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+    <style name="StyleTextS16B66_Bold" parent="StyleTextS16B66">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="StyleTextS16B63" parent="StyleTextS16B66">
+        <item name="android:textColor">@color/black63</item>
+    </style>
+
+    <style name="StyleTextS16B63_Bold" parent="StyleTextS16B63">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="StyleTextS14B66" parent="StyleTextS16B66">
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+    <style name="StyleTextS14B66_Bold" parent="StyleTextS14B66">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="StyleTextS14B63" parent="StyleTextS14B66">
+        <item name="android:textColor">@color/black63</item>
+    </style>
+
+    <style name="StyleTextS14B63_Bold" parent="StyleTextS14B63">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

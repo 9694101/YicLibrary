@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CuteIndicator">
+        <!--默认圆点指示符颜色-->
+        <attr name="IndicatorColor" format="color" />
+        <!--选中圆点指示符颜色-->
+        <attr name="IndicatorSelectedColor" format="color" />
+        <!--默认圆点指示符宽度-->
+        <attr name="IndicatorWidth" format="dimension" />
+        <!--默认圆点指示符高度-->
+        <attr name="IndicatorHeight" format="dimension" />
+        <!--选中圆点指示符宽度-->
+        <attr name="IndicatorSelectedWidth" format="dimension" />
+        <!---圆点与圆点之间的间隔-->
+        <attr name="IndicatorMargin" format="dimension" />
+        <!---是否显示动画-->
+        <attr name="IndicatorShowAnimation" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="LineIndicator">
+        <attr name="LineIndicator_Color" format="color" />
+        <attr name="LineIndicator_SelectedColor" format="color" />
+        <attr name="LineIndicator_Width" format="dimension" />
+        <attr name="LineIndicator_Height" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="CircleIndicator">
+        <!--默认圆点指示符颜色-->
+        <attr name="ci_IndicatorColor" format="color" />
+        <!--选中圆点指示符颜色-->
+        <attr name="ci_IndicatorSelectedColor" format="color" />
+        <!--默认圆点指示符宽度-->
+        <attr name="ci_IndicatorWidth" format="dimension" />
+        <!--默认圆点指示符高度-->
+        <attr name="ci_IndicatorHeight" format="dimension" />
+        <!---圆点与圆点之间的间隔-->
+        <attr name="ci_IndicatorMargin" format="dimension" />
+        <!---是否显示动画-->
+        <attr name="ci_IndicatorShowAnimation" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MaxHeightView">
+        <attr name="maxHeight" format="dimension" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/content_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_26"
+        android:layout_marginRight="@dimen/dp_26"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_r12_white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:minHeight="106dp"
+            android:minWidth="300dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/message_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp_15"
+                android:paddingTop="@dimen/dp_24"
+                android:paddingRight="@dimen/dp_15"
+                android:textColor="@color/black63"
+                android:textSize="@dimen/sp_24"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/message_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:minLines="2"
+                    android:textStyle="bold"
+                    android:padding="@dimen/dp_22"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_16" />
+
+            </ScrollView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_44"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/dp_26"
+            android:paddingEnd="@dimen/dp_26"
+            android:layout_marginBottom="@dimen/dp_30">
+
+            <TextView
+                android:id="@+id/message_negative"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="取消"
+                android:textColor="@color/theme_color"
+                android:background="@drawable/bg_r4_theme_w1"
+                android:textSize="@dimen/sp_16" />
+
+            <View
+                android:id="@+id/message_divider"
+                android:layout_width="@dimen/dp_34"
+                android:layout_height="match_parent"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/message_positive"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="确认"
+                android:textColor="@color/white"
+                android:background="@drawable/bg_r4_theme"
+                android:textSize="@dimen/sp_16" />
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

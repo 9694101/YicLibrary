@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_top_r12_white">
+
+        <TextView
+            android:id="@+id/title_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black63"
+            android:textSize="@dimen/sp_17"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/dp_25"
+            android:includeFontPadding="false"
+            android:text="请选择您的休息时间"/>
+
+        <com.github.gzuliyujiang.wheelpicker.widget.OptionWheelLayout
+            android:id="@+id/text_picker"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_208"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginBottom="@dimen/dp_20"
+            app:wheel_timeMode="hour_24_no_second"
+            app:wheel_itemTextSizeSelected="@dimen/dp_26"
+            app:wheel_itemTextSize="@dimen/sp_16"
+            app:wheel_itemTextBoldSelected="true"
+            app:wheel_itemTextColorSelected="@color/black63"
+            app:wheel_itemTextColor="#99333333"
+            app:wheel_indicatorEnabled="false"
+            app:wheel_visibleItemCount="5"/>
+
+        <TextView
+            android:id="@+id/confirm_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:layout_marginStart="@dimen/dp_24"
+            android:layout_marginEnd="@dimen/dp_24"
+            android:layout_marginBottom="@dimen/dp_40"
+            android:text="保存"
+            android:gravity="center"
+            android:textSize="@dimen/sp_16"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/bg_r30_theme_color"/>
+
+    </LinearLayout>
+
+</layout>

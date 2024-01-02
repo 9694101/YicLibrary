@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <declare-styleable name="MySwitchButton">
+        <attr name="sb_shadow_radius" format="reference|dimension"/>
+        <attr name="sb_shadow_offset" format="reference|dimension"/>
+        <attr name="sb_shadow_color" format="reference|color"/>
+        <attr name="sb_uncheck_color" format="reference|color"/>
+        <attr name="sb_checked_color" format="reference|color"/>
+
+        <attr name="sb_border_width" format="reference|dimension"/>
+        <attr name="sb_checkline_color" format="reference|color"/>
+        <attr name="sb_checkline_width" format="reference|dimension"/>
+        <attr name="sb_uncheckcircle_color" format="reference|color"/>
+        <attr name="sb_uncheckcircle_width" format="reference|dimension"/>
+        <attr name="sb_uncheckcircle_radius" format="reference|dimension"/>
+
+        <attr name="sb_checked" format="reference|boolean"/>
+        <attr name="sb_shadow_effect" format="reference|boolean"/>
+        <attr name="sb_effect_duration" format="reference|integer"/>
+        <attr name="sb_button_color" format="reference|color"/>
+        <attr name="sb_show_indicator" format="reference|boolean"/>
+        <attr name="sb_background" format="reference|color"/>
+        <attr name="sb_enable_effect" format="reference|boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="RoundProgressBar">
+
+        <attr name="round_start_color" format="color"/>color
+        <attr name="round_center_color" format="color"/>color
+        <attr name="round_end_color" format="color"/>
+        <attr name="round_bg_color" format="color"/>
+        <attr name="round_thumb_color" format="color"/>
+        <attr name="round_thumb_out_color" format="color"/>
+        <attr name="round_radius" format="dimension"/>
+        <attr name="round_thumb_radius" format="dimension"/>
+        <attr name="round_thumb_out_radius" format="dimension"/>
+        <attr name="round_progress" format="float"/>
+        <attr name="round_max_progress" format="integer"/>
+        <attr name="round_bg_progress_width" format="dimension"/>
+        <attr name="round_full_progress_width" format="dimension"/>
+        <attr name="round_start_angle" format="float"/>
+
+    </declare-styleable>
+
+    <style name="view_space">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="view_divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_1</item>
+        <item name="android:background">@color/divider</item>
+    </style>
+
+    <!--边沿透明View-->
+    <declare-styleable name="EdgeTransparentView">
+        <attr name="edge_position">
+            <flag name="top" value="0x01"/>
+            <flag name="bottom" value="0x02"/>
+            <flag name="left" value="0x04"/>
+            <flag name="right" value="0x08"/>
+        </attr>
+
+        <attr name="edge_width" format="dimension"/>
+    </declare-styleable>
+
+    <style name="Animation">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+
+    <declare-styleable name="countSecond">
+        <attr name="second" format="integer"/>
+    </declare-styleable>
+
+    <style name="normal_popup">
+        <item name="android:windowEnterAnimation">@anim/popup_tip_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_tip_out</item>
+    </style>
+
+    <style name="font_pay_time_text">
+        <item name="android:layout_width">@dimen/dp_23</item>
+        <item name="android:layout_height">@dimen/dp_25</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginStart">@dimen/dp_2</item>
+        <item name="android:layout_marginEnd">@dimen/dp_2</item>
+        <item name="android:background">@drawable/bg_r4_fe6262</item>
+        <item name="android:text">0</item>
+    </style>
+
+    <declare-styleable name="RatioLinearLayout">
+        <attr name="width_height_ratio" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="GradientTextView">
+        <attr name="gradient_startColor" format="reference|color" />
+        <attr name="gradient_endColor" format="reference|color" />
+        <attr name="gradient_direction" format="enum">
+            <enum name="leftToRight" value="1" />
+            <enum name="topToBottom" value="2" />
+        </attr>
+        <attr name="gradient_animate" format="boolean" />
+        <attr name="gradient_speed" format="enum">
+            <enum name="slow" value="20" />
+            <enum name="normal" value="10" />
+            <enum name="fast" value="5" />
+        </attr>
+    </declare-styleable>
+    
+    <declare-styleable name="DashView">
+        <attr name="dashWidth" format="dimension"/>
+        <attr name="dashGap" format="dimension"/>
+        <attr name="lineColor" format="reference|color"/>
+        <attr name="dashOrientation" format="enum">
+            <enum name="horizontal" value="1"/>
+            <enum name="vertical" value="2"/>
+        </attr>
+    </declare-styleable>
+
+</resources>

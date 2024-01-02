@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CornersLinearLayout">
+        <attr name="round_corner" format="dimension"/>
+        <attr name="left_top" format="dimension"/>
+        <attr name="right_top" format="dimension"/>
+        <attr name="left_bottom" format="dimension"/>
+        <attr name="right_bottom" format="dimension"/>
+    </declare-styleable>
+</resources>

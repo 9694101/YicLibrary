@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.yic3.lib.widget.StatusBarView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/dp_16"
+            android:layout_margin="@dimen/dp_10"
+            android:background="@drawable/bg_r8_white">
+
+            <TextView
+                android:id="@+id/title_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp_16"
+                android:textColor="@color/black63"
+                android:text="权限限制"/>
+
+            <TextView
+                android:id="@+id/content_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp_14"
+                android:textColor="@color/black66"
+                android:text="自定义权限描述说明"
+                android:layout_marginTop="@dimen/dp_5"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>

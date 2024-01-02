@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/bg_r12_theme" android:state_selected="true"/>
+    <item android:drawable="@drawable/bg_r12_f3"/>
+
+</selector>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-path
+        name="external_files"
+        path="." />
+    <external-path
+        name="download"
+        path="." />
+    <external-path
+        name="pictures"
+        path="." />
+    <external-path
+        name="pick_camera"
+        path="DCIM" />
+    <!--外部存储路径-->
+    <external-path
+        name="files_root"
+        path="Android/data/${applicationId}/" />
+    <root-path
+        name="files_root"
+        path="." />
+    <!--    AliyunVideoCommon  里面的-->
+    <external-path
+        name="external_storage_root"
+        path="." />
+    <root-path
+        name="root_path"
+        path="." />
+    <files-path
+        name="file_path"
+        path="." />
+
+    <cache-path
+        name="cache_path"
+        path="." />
+
+    <external-path
+        name="external_path"
+        path="." />
+
+    <external-files-path
+        name="external_files_path"
+        path="." />
+
+    <external-cache-path
+        name="external_cache_path"
+        path="." />
+
+    <external-media-path
+        name="external_media_path"
+        path="." />
+
+    <root-path name="jad_root_path" path="."/>
+    <external-path name="jad_external_path" path="JAdDownload" />
+    <external-files-path name="jad_external_files_path" path="JAdDownload" />
+    <files-path name="jad_files_path" path="JAdDownload" />
+    <cache-path name="jad_cache_path" path="JAdDownload" />
+
+    <external-files-path name="sharedata" path="shareData/"/>
+    <external-cache-path
+        name="sharedata"
+        path="." />
+
+    <external-path name="sdcard" path="."/>
+
+</paths>

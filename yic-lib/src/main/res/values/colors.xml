@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="theme_color">#FF8841</color>
+    <color name="theme_color_a5">#0DFF8841</color>
+    <color name="theme_color_a15">#26FF8841</color>
+    <color name="theme_color_a40">#66FF8841</color>
+    <color name="deep_theme_color">#007AFF</color>
+    <color name="deep_theme_color_a7">#12007AFF</color>
+    <color name="splash_bg">#597EFF</color>
+    <color name="app_background">#F7F8FA</color>
+    <color name="background">#FFFFFF</color>
+    <color name="transparent">#0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_a16">#29FFFFFF</color>
+    <color name="white_a60">#99FFFFFF</color>
+    <color name="white_a70">#B3FFFFFF</color>
+    <color name="white_a80">#CCFFFFFF</color>
+    <color name="white_a90">#E6FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black_half">#80000000</color>
+    <color name="black_a80">#CC000000</color>
+    <color name="line_gray">#14000000</color>
+    <color name="divider">#F3F3F3</color>
+    <color name="black62">#222222</color>
+    <color name="black63">#333333</color>
+    <color name="black63_a5">#0D333333</color>
+    <color name="black63_a10">#1A333333</color>
+    <color name="black63_a20">#33333333</color>
+    <color name="black63_a30">#4D333333</color>
+    <color name="black63_a40">#66333333</color>
+    <color name="black63_a50">#80333333</color>
+    <color name="black63_a60">#99333333</color>
+    <color name="black63_a70">#B3333333</color>
+    <color name="black63_a90">#E6333333</color>
+    <color name="black66">#666666</color>
+    <color name="black80">#808080</color>
+    <color name="black68">#888888</color>
+    <color name="black69">#999999</color>
+    <color name="black6a">#AAAAAA</color>
+    <color name="black6c">#CCCCCC</color>
+    <color name="black6d">#DDDDDD</color>
+    <color name="black6e">#EEEEEE</color>
+    <color name="colorF3">#F3F3F3</color>
+    <color name="colorF5">#F5F5F5</color>
+    <color name="colorBE">#BEBEBE</color>
+    <color name="colorD8">#D8D8D8</color>
+    <color name="colorD8_a20">#33D8D8D8</color>
+    <color name="colorD8_a30">#4DD8D8D8</color>
+    <color name="colorD8_a70">#B3D8D8D8</color>
+    <color name="colorED">#EDEDED</color>
+
+</resources>
