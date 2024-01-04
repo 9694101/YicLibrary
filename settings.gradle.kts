@@ -65,6 +65,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "YicLibrary"
-include(":app")
 include(":yic-lib")
 include(":JetpackMvvm")
