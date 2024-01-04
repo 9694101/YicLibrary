@@ -34,7 +34,7 @@ artifacts.add("default", file("HumeSDK-1.1.1.aar"))
 dependencies {
 
     compileOnly(fileTree("libs"))
-    api(project(":yic-lib"))
+    api(project(":JetpackMvvm"))
 
     implementation 'com.github.jitpack:android-example:1.0.1'
 
