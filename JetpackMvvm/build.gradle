@@ -5,6 +5,8 @@ apply plugin: 'kotlin-kapt'
 apply plugin: 'maven-publish'
 
 android {
+    compileSdk 30
+
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 30
