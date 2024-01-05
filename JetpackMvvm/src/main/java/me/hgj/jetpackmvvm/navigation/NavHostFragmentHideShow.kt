@@ -4,7 +4,7 @@ import android.view.View
 import androidx.navigation.Navigator
 import androidx.navigation.fragment.FragmentNavigator
 import androidx.navigation.fragment.NavHostFragment
-import me.hgj.jetpackmvvm.R
+import androidx.navigation.fragment.R
 
 
 /**
@@ -18,7 +18,7 @@ class NavHostFragmentHideShow : NavHostFragment() {
     /**
      * @return 使用自己的FragmentNavigator
      */
-    override fun createFragmentNavigator(): Navigator<out FragmentNavigator.Destination?> {
+    override fun createFragmentNavigator(): Navigator<out FragmentNavigator.Destination> {
         return FragmentNavigatorHideShow(requireContext(), childFragmentManager, containerId)
     }
 
