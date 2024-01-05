@@ -37,15 +37,16 @@ class SplashViewModel : BaseViewModel() {
         fun isAgreePrivacy(): Boolean {
             return getSpUtils().getBoolean(KEY_AGREEMENT)
         }
-    }
 
-    fun agreePrivacy() {
-        getSpUtils().put(KEY_AGREEMENT, true)
-    }
+        fun agreePrivacy() {
+            getSpUtils().put(KEY_AGREEMENT, true)
+        }
 
-    fun isGuide(): Boolean {
-        // return false
-        return !UserInfoManager.isOpenGuide() || getSpUtils().getBoolean(KEY_GUIDE)
+        fun isGuide(): Boolean {
+            // return false
+            return !UserInfoManager.isOpenGuide() || getSpUtils().getBoolean(KEY_GUIDE)
+        }
+
     }
 
     val initConfigResult = MutableLiveData<AppInitConfig>()
