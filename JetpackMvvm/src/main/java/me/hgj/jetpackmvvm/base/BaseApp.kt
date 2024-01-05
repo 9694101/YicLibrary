@@ -20,10 +20,6 @@ open class BaseApp : Application(), ViewModelStoreOwner {
 
     private var mFactory: ViewModelProvider.Factory? = null
 
-    override fun getViewModelStore(): ViewModelStore {
-        return mAppViewModelStore
-    }
-
     override fun onCreate() {
         super.onCreate()
         mAppViewModelStore = ViewModelStore()
@@ -42,4 +38,7 @@ open class BaseApp : Application(), ViewModelStoreOwner {
         }
         return mFactory as ViewModelProvider.Factory
     }
+
+    override val viewModelStore: ViewModelStore
+        get() = mAppViewModelStore
 }
